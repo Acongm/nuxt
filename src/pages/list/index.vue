@@ -4,3 +4,10 @@
     <ListItem></ListItem>
   </div>
 </template>
+
+
+<script lang="ts" setup>
+const { data, pending, error, refresh } = useAsyncData('mountains', () =>
+  $fetch('https://api.nuxtjs.dev/mountains'),
+);
+</script> 

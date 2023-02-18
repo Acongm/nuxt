@@ -7,3 +7,9 @@
     </NuxtLayout>
   </div>
 </template>
+
+<style lang="less">
+body {
+  background-color: red;
+}
+</style>
